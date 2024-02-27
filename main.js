@@ -6,12 +6,13 @@ import * as SkeletonUtils from "three/addons/utils/SkeletonUtils.js";
 let camera, scene, renderer;
 let controller;
 let testModel;
-// let testModel2;
-// let testModel3;
-// let testModel4;
-// let testModel5;
-// let testModel = [testModel1, testModel2, testModel3, testModel4, testModel5];
 let i = 0;
+
+// exemple utile de collisions :
+// https://threejs.org/examples/webgl_interactive_cubes.html
+// et le code https://github.com/mrdoob/three.js/blob/master/examples/webgl_interactive_cubes.html
+
+// a faire avec Raycaster : https://threejs.org/docs/index.html?q=rayca#api/en/core/Raycaster
 
 init();
 animate();
